@@ -1,0 +1,13 @@
+#profile-title {
+    text-align: center;
+    font-family: 'Timees New Roman', Times, serif;
+    color: black
+}
+#resume-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 100%
+}
