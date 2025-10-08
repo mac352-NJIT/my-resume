@@ -2,18 +2,20 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
 #profile-title {
     text-align: center;
+    font-size: 48px;
     font-family: 'Timees New Roman', Times, serif;
-    color: black
-}
-#resume-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    color: black;
+    margin-left: 20px;
     padding: 20px;
-    width: 100%;
-    height: 100%
+}
+
+.resume-container {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 #SectionOne {
@@ -22,4 +24,61 @@ html, body {
     background-image: url(giphy.gif);
     background-size: cover;
     background-position: center;
+}
+
+#name1 {
+    text-align: center;
+    font-family: 'Timees New Roman', Times, serif;
+    color: white;
+    margin-top: 0px;
+    padding-top: 300px;
+}
+
+#title1 {
+    text-align: center;
+    font-family: 'Timees New Roman', Times, serif;
+    color: white;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+#profile-details {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    color: black;
+}
+
+#objective-statement {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: black;
+    padding: 20px;
+}
+
+#SectionTwo {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#SectionThree {
+    background-color: lightblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+#education-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Timees New Roman', Times, serif;
+    color: black;
+    padding: 20px;
+}
+
+#education-contents {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
 }
