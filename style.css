@@ -82,3 +82,35 @@ html, body {
     margin-left: 20px;
     padding: 20px;
 }
+
+#School-logos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#SectionFour {
+    background-color: blue;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+#working-title {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Timees New Roman', Times, serif;
+    color: white;
+    padding: 20px;
+}
+
+.work-contents {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 20px;
+    padding: 20px;
+}
