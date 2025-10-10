@@ -160,3 +160,9 @@ html, body {
     margin-left: 20px;
     padding: 20px;
 }
+
+#SectionSeven {
+    background-color: lightsteelblue;
+    width: 100vw;
+    height: 100vh;
+}
