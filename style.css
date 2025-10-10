@@ -114,3 +114,49 @@ html, body {
     margin-left: 20px;
     padding: 20px;
 }
+
+#SectionFive {
+    background-color: lightgrey;
+    width: 100vw;
+    height: 100vh;
+}
+
+#skills-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Timees New Roman', Times, serif;
+    color: black;
+    margin: 0px;
+    padding: 20px;
+}
+
+#skills-contents {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#SectionSix {
+    background-color: lightyellow;
+    width: 100vw;
+    height: 100vh;
+}
+
+#awards-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Timees New Roman', Times, serif;
+    color: blue;
+    margin: 0px;
+    padding: 20px;
+}
+
+#awards-contents {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    margin-left: 20px;
+    padding: 20px;
+}
