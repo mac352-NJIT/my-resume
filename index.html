@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
+<nav id="navbar">
+    <ul>
+        <li><a href="#SectionOne">Home</a></li>
+        <li><a href="#SectionTwo">Profile</a></li>
+        <li><a href="#SectionThree">Education</a></li>
+        <li><a href="#SectionFour">Work Experience</a></li>
+        <li><a href="#SectionFive">Skills</a></li>
+        <li><a href="#SectionSix">Awards</a></li>
+        <li><a href="#SectionSeven">Hobbies</a></li>
+        <li><a href="#SectionEight">Contact Information</a></li>
+    </ul>
+</nav>
+
 <div id = "SectionOne">
     <h1 id="name1" style="font-size: 50px;"> Manuel Calle </h1>
     <h2 id="title1" style="font-size: 48px;"> Software Developer </h2>
@@ -52,7 +67,7 @@
                 <img src="Highschoollogo.png" alt="High School Logo" width="200" height="150">
             </div>
             <div>
-                <img src="NJITLogo.png" alt="NJIT Logo" width="200" height="200">
+                <img src="NJITLogo.png" alt="NJIT Logo" width="200" height="150">
             </div>
         </div>
     </ul>>
@@ -160,6 +175,10 @@
             Seal of Biliteracy (2024 - Present)
         </li>
     </ul>
+    <div id = "Awards-Images">
+        <img src="IBLogo.png" alt="IB" width="300" height="300">
+        <img src="SealofBiliteracyLogo.png" alt="Seal of Biliteracy" width="300" height="300">
+    </div>
 </div>
 <div id = "SectionSeven">
     <h1 id = "hobbies-title">
@@ -167,15 +186,56 @@
     </h1>
     <ul id = "hobbies-contents">
         <li>
+            Playing Soccer
+        </li>
+        <p></p>
+        <li>
             Guitarist
         </li>
+        <p></p>
         <li>
             Drawing/Sketching
         </li>
+        <p></p>
         <li>
-            
+            Video-Games
         </li>
     </ul>
+    <div id = "Hobby-Images">
+        <img src="Soccer.png" alt="Soccer Image" width="300" height="200">
+        <img src="Guitar.png" alt="Guitar Image" width="300" height="200">
+    </div>
 </div>
+<section class="Contact-Page">
+    <div id = "SectionEight">
+            <h1 id = "Contact-title">
+                Contact Information
+            </h1>
+            <div id = "contact-wrapper">
+                <div id = "contact-form">
+                    <h3>Send me a message</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="67fcef5f-69f2-4f68-83f1-d0a82e001106">
+                        <div class = "form-group">
+                            <input class="text-size" type="text" name="name" placeholder="Your Name">
+                        </div>
+                        <div class = "form-group">
+                            <input class="text-size" type="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class = "form-group">
+                            <textarea id="text-box-size" name="message" placeholder="Your Message . . . "></textarea>
+                        </div>
+                        <button type="submit" >Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <p>+1 (123) 456 - 7890</p>
+                    <p>mac352@njit.edu</p>
+                    <p>323 Dr Martin Luther King Jr Blvd, Newark, NJ 07102</p>
+                </div>
+            </div>
+    </div>
+</section>
 </body>
 </html>

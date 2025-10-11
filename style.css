@@ -3,13 +3,41 @@ html, body {
     padding: 0;
 }
 
+#navbar {
+    border: solid black 2px;
+    background-color: yellow;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+
+#navbar a:hover{
+    background-color: white;
+}
+
+#navbar li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
 #profile-title {
     text-align: center;
     font-size: 48px;
     font-family: 'Timees New Roman', Times, serif;
     color: black;
     margin-left: 20px;
-    padding: 20px;
+    padding-top: 60px;
 }
 
 .resume-container {
@@ -38,7 +66,7 @@ html, body {
     text-align: center;
     font-family: 'Timees New Roman', Times, serif;
     color: white;
-    margin-top: 0px;
+    margin-top: 20px;
     padding-top: 20px;
 }
 
@@ -72,7 +100,7 @@ html, body {
     font-size: 48px;
     font-family: 'Timees New Roman', Times, serif;
     color: black;
-    padding: 20px;
+    padding-top: 60px;
 }
 
 #education-contents {
@@ -104,7 +132,7 @@ html, body {
     font-size: 48px;
     font-family: 'Timees New Roman', Times, serif;
     color: white;
-    padding: 20px;
+    padding-top: 60px;
 }
 
 .work-contents {
@@ -127,7 +155,7 @@ html, body {
     font-family: 'Timees New Roman', Times, serif;
     color: black;
     margin: 0px;
-    padding: 20px;
+    padding-top: 60px;
 }
 
 #skills-contents {
@@ -150,7 +178,7 @@ html, body {
     font-family: 'Timees New Roman', Times, serif;
     color: blue;
     margin: 0px;
-    padding: 20px;
+    padding-top: 60px;
 }
 
 #awards-contents {
@@ -165,4 +193,80 @@ html, body {
     background-color: lightsteelblue;
     width: 100vw;
     height: 100vh;
+}
+
+#hobbies-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Timees New Roman', Times, serif;
+    color: black;
+    margin: 0px;
+    padding-top: 60px;
+}
+
+#hobbies-contents {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#SectionEight {
+    background-color: skyblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+#Contact-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Timees New Roman', Times, serif;
+    color: black;
+    margin: 0px;
+    padding-top: 60px;
+}
+
+.Contact-Page {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    background-color: white;
+    text-align: center;
+}
+
+#contact-wrapper {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.text-size {
+    width: 300px;
+    height: 20px;
+}
+
+#text-box-size {
+    margin-top: 20px;
+    width: 300px;
+    height: 100px;
+}
+
+#Hobby-Images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+#Awards-Images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
 }
